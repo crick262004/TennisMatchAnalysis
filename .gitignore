@@ -1,0 +1,32 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Model Weights
+*.pt
+*.pth
+*.onnx
+*.bin
+models/*
+!models/.gitkeep
+
+# Video Files & Folders
+*.mp4
+*.avi
+*.mov
+input_videos/*
+!input_videos/.gitkeep
+output_videos/*
+!output_videos/.gitkeep
+
+# Cached Data & YOLO Runs
+*.pkl
+tracker_stubs/*
+!tracker_stubs/.gitkeep
+runs/
+
+# System & Python Cache
+.DS_Store
+__pycache__/
+*.pycrm -rf .git
