@@ -15,10 +15,6 @@ models/*
 *.mp4
 *.avi
 *.mov
-input_videos/*
-!input_videos/.gitkeep
-output_videos/*
-!output_videos/.gitkeep
 
 # Cached Data & YOLO Runs
 *.pkl
